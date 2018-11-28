@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximumum-scale-1", with=device-width>
+	<title>Hoja de Vida</title>
+</head>
+<body>
+<header>
+<svg width="100px" height="100px" viewBox="0 0 100 100" >
+	<image width="100px" height="100px" xlink:href="img/logo.svg" ></image>
+</svg>
+	<h1>
+		Hoja de Vida
+	</h1>
+	<h2>
+	Carlos Fernando G. T.
+	</h2>
+	<h3>
+	Naci el 7 de Enero del 1990
+	</h3>	
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="educacion.html">Educacion</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+</nav>
+
+<section>
+
+<h2>
+Educacion
+</h2>
+	<table border="1" cellpadding="10" cellspacing="0">
+		<thead>
+		<tr>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culmino?</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>2012</td>
+			<td>Teinco</td>
+			<td>Colombia</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2014</td>
+			<td>Distrital</td>
+			<td>Colombia</td>
+			<td>Si</td>
+		</tr>
+		</tbody>
+	</table>
+
+<h2>
+Agregar Estudios
+</h2>
+
+<form action="">
+	<p>
+		<label for="fecha">Año: </label>
+		<br>
+		<select name="fecha">
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+		</select>
+	</p>
+	<p>
+		<label for="institucion">Institución</label>
+		<br>
+		<input type="text" name="institucion" placeholder="Ej: colegio" autofocus required>
+	</p>
+	<p>
+		<label for="lugar">Lugar: </label>
+		<br>
+		<textarea name="lugar" id="" cols="30" rows="3"></textarea>
+	</p>
+	<p>
+		<input type="submit" value="Enviar">
+	</p>
+</form> <!-- Hay mas tipos de campos pero no se solicitaron por eso no se incluyen -->
+<section>
+
+<footer>
+	<strong>Información de Pie de página</strong>
+	<div>
+		<a href="mailto:carferguz@gmail.com">Correo Personal</a>		
+		<p>Telefono: 68764654198435416854 </p>
+		<a href="http://www.facebook.com">Facebook</a>
+		<p>Direccion: Bogota- Colombia </p>
+	
+	</div>
+</footer>
+</body>
+</html>
